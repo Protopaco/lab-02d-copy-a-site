@@ -32,7 +32,7 @@ main{
     grid-template-columns: 3fr 3fr 3fr 1fr;
     border: 1px solid black;
     border-radius: 15px;
-    height: 75px;
+    height: 65px;
     padding: 10px;
 }
 
@@ -78,4 +78,14 @@ main{
      justify-content: center;
      align-items: center;
      font-size: .75em;
+ }
+
+ .search-button {
+     background-color: magenta;
+     color: white;
+     border-radius: 15px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 90%;
  }
